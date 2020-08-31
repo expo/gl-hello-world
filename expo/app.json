@@ -4,20 +4,26 @@
     "description": "An empty new project",
     "slug": "GLViewInitExample",
     "privacy": "public",
-    "sdkVersion": "19.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "./assets/icons/app-icon.png",
-    "loading": {
-      "icon": "./assets/icons/loading-icon.png",
-      "hideExponentText": false
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
-    "packagerOpts": {
-      "assetExts": ["ttf", "mp4"]
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }

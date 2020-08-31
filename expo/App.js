@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { GLView } from 'expo';
+import { GLView } from 'expo-gl';
 
 const vertSrc = `
 void main(void) {
